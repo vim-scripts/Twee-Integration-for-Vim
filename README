@@ -1,0 +1,8 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3007
+
+This adds syntax highlighting and compiler support for twee files (*.tw).
+The syntax highlighting was prepared with a dark colorscheme in mind.
+
+Typing :make in .tw files will run twee (1.7.5) on them and pipe it to an html file named as the current file. That is, running :make on fiction.tw will create the fiction.html file.
+
+Twee (http://gimcrackd.com/etc/src/) is an interactive stories creation tool based on TyddlyWiki, developed by Chris Klimas.
